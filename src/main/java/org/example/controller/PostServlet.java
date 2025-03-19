@@ -8,8 +8,8 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import org.example.DAO.PostsDAO;
 import org.example.DAO.PostsDAOImpl;
-import org.example.entity.Posts;
-import org.example.entity.User;
+import org.example.model.Posts;
+import org.example.model.User;
 
 import java.io.IOException;
 import java.time.LocalDateTime;

@@ -8,7 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 import org.example.DAO.UserDAO;
 import org.example.DAO.UserDAOImpl;
-import org.example.entity.User;
+import org.example.model.User;
 
 import java.io.IOException;
 

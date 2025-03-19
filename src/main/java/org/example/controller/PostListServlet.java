@@ -7,7 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.example.DAO.PostsDAO;
 import org.example.DAO.PostsDAOImpl;
-import org.example.entity.Posts;
+import org.example.model.Posts;
 
 import java.io.IOException;
 import java.util.List;

@@ -3,29 +3,28 @@ package org.example.entity;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
-@Entity
-@Table(name = "posts")
+
+
 public class Posts {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+
     private Long id;
 
     private String title;
     private String body;
     
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id", nullable = false)
+
     private User user;
     
     private String status;
     
-    @Column(name = "created_at")
+
     private LocalDateTime createdAt;
 
-    @Column(name = "updated_at")
+
     private LocalDateTime updatedAt;
     
-    @Column(name = "deleted_at")
+
     private LocalDateTime deletedAt;
 
     // Getters and Setters
